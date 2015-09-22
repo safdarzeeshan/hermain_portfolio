@@ -1,0 +1,1 @@
+web: gunicorn hermain_portfolio.wsgi --log-file -
