@@ -19,5 +19,6 @@ from portfolio import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
+    url(r'^mail/$', views.mail, name='mail'),
     url(r'^admin/', include(admin.site.urls)),
 ]
